@@ -1,0 +1,72 @@
+.h-wrapper {
+    color: white;
+    z-index: 99;
+  }
+  .h-container {
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: var(--secondary);
+  }
+  .h-menu {
+    gap: 2rem;
+    border-radius: 4px;
+    transition: all 500s ease-in-out;
+  }
+  .h-menu > *:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    color: orange;
+  }
+  .h-menu .button {
+    display: none;
+  }
+  .log-btn {
+    position: static;
+    gap: 0.8rem;
+    right: 1rem;
+    top: 1rem;
+  }
+  
+  .log-btn >:hover {
+    color: orange;
+  }
+  .menu-icon {
+    display: none;
+  }
+  
+  @media (max-width: 768px) {
+    .menu-icon {
+      display: block;
+      cursor: pointer;
+    }
+    .menu-icon:hover{
+      scale :1.2;
+      color: orange;
+    }
+    .h-menu {
+      z-index: -99;
+      color: var(--black);
+      position: absolute;
+      top: 3.5rem;
+      right: 1rem;
+      background: rgb(221, 210, 210);
+      flex-direction: column;
+      font-weight: 500;
+      gap: 2rem;
+      padding: 2rem;
+      border-radius: 10px;
+      align-items: flex-start;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+      transition: all 300ms ease-in;
+      /* z-index: 1; */
+    }
+    .h-menu .button {
+      display: block;
+      
+    }
+    .log-btn .button {
+    display: none;
+    }
+  }
+  

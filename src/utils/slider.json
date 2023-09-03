@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Agriculture",
+    "total": "47",
+    "description": "The African Crop Science Journal,",
+    "image": "./3.jpg"
+  },
+  {
+    "name": "Biology & Life",
+    "total": "66",
+    "description": "The African Crop Science Journal",
+    "image": "./r2.png"
+  },
+  {
+    "name": "Fin & Mgt",
+    "total": "45",
+    "description": "The African Crop Science Journal,",
+    "image": "./r3.png"
+  },
+  {
+    "name": "Philosophy",
+    "total": "47",
+    "description": "The African Crop Science Journal",
+    "image": "./r1.png"
+  },
+  {
+    "name": "Politics & Law ",
+    "total": "66",
+    "description": "The African Crop Science Journal",
+    "image": "./r2.png"
+  },
+  {
+    "name": "Technology",
+    "total": "45",
+    "description": "The African Crop Science Journal",
+    "image": "./r3.png"
+  },
+  {
+    "name": "Lang & Lit-  ",
+    "total": "45",
+    "description": "The African Crop Science Journal",
+    "image": "./r3.png"
+  },
+  {
+    "name": "ICT & LIB",
+    "total": "45",
+    "description": "The African Crop Science Journal",
+    "image": "./r3.png"
+  },
+  {
+    "name": "Gen Science ",
+    "total": "45",
+    "description": "The African Crop Science Journal",
+    "image": "./r3.png"
+  },
+  {
+    "name": "History ",
+    "total": "45",
+    "description": "The African Crop Science Journal",
+    "image": "./r3.png"
+  }
+]
